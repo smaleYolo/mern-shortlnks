@@ -1,0 +1,5 @@
+{
+  "port": 5000,
+  "jwtSecret": "some secret string",
+  "mongoUri": "mongodb+srv://admin:admin@cluster0.udzl8.mongodb.net/mern-shortlink?retryWrites=true&w=majority"
+}
