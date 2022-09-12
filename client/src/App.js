@@ -1,12 +1,18 @@
 import React from "react";
 import 'materialize-css';
+import {BrowserRouter} from "react-router-dom";
+import {useRoutes} from "./routes";
+
 
 function App() {
-  return (
-    <div className="container">
-      <h1>Salam</h1>
-    </div>
-  );
+    const routes = useRoutes(false)
+    return (
+        <BrowserRouter>
+            <div>
+                {routes}
+            </div>
+        </BrowserRouter>
+    );
 }
 
 export default App;
